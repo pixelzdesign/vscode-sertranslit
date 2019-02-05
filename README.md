@@ -1,7 +1,18 @@
 # Serbian Translit
 
-Serbian transliteration cyrillic to latin, latin to cyrillic and slugify
+Serbian transliteration **cyrillic to latin**, **latin to cyrillic** and **slugify**
+
+## Thanks to AlexPsilon
+
+Based on AlexPsilon/vscode-translit.
 
 ## How to use
 
-Open up VS Code and hit F1 and type ext select Install Extension and type translit hit enter and reload window to enable.
+Select text, press **F1** and type **sertranslit**. You can use three commands:
+1. SerTranslit: Cyrillic to Latin
+2. SerTranslit: Latin to Cyrillic
+3. SerTranslit: Slug
+
+That's it.
+
+
