@@ -35,7 +35,7 @@ const strToCyr = str => {
   .replace('ДЖ', 'Џ').replace('НЈ', 'Њ').replace('ЛЈ', 'Љ');
 };
 
-const translitCyrToLat = () => {
+const sertranslitCyrToLat = () => {
   const editor = Window.activeTextEditor;
   if (!editor) return;
 
@@ -53,7 +53,7 @@ const translitCyrToLat = () => {
   });
 };
 
-const translitLatToCyr = () => {
+const sertranslitLatToCyr = () => {
   const editor = Window.activeTextEditor;
   if (!editor) return;
 
@@ -71,7 +71,7 @@ const translitLatToCyr = () => {
   });
 };
 
-const translitSlug = () => {
+const sertranslitSlug = () => {
   const editor = Window.activeTextEditor;
   if (!editor) return;
 
@@ -94,9 +94,9 @@ const reg = (name, callback) => {
 };
 
 exports.activate = context => {
-  context.subscriptions.push(reg('translitCyrToLat', translitCyrToLat));
-  context.subscriptions.push(reg('translitLatToCyr', translitLatToCyr));
-  context.subscriptions.push(reg('translitSlug', translitSlug));
+  context.subscriptions.push(reg('sertranslitCyrToLat', sertranslitCyrToLat));
+  context.subscriptions.push(reg('sertranslitLatToCyr', sertranslitLatToCyr));
+  context.subscriptions.push(reg('sertranslitSlug', sertranslitSlug));
 };
 
 exports.deactivate = () => {};

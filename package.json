@@ -3,7 +3,7 @@
   "displayName": "SerTranslit",
   "icon": "img/icon.png",
 	"description": "Serbian transliteration cyrillic to latin, latin to cyrillic and slugify",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "publisher": "pixelzdesign",
 	"engines": {
 		"vscode": "^1.30.0"
@@ -36,13 +36,13 @@
 			}
 		]
   },
-  "homepage": "https://github.com/AlexPsilon/vscode-translit",
+  "homepage": "https://github.com/pixelzdesign/vscode-sertranslit",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/AlexPsilon/vscode-translit.git"
+		"url": "https://github.com/pixelzdesign/vscode-sertranslit.git"
 	},
 	"bugs": {
-		"url": "https://github.com/AlexPsilon/vscode-translit/issues"
+		"url": "https://github.com/pixelzdesign/vscode-sertranslit/issues"
 	},
 	"scripts": {
 		"postinstall": "node ./node_modules/vscode/bin/install",
@@ -56,8 +56,6 @@
 		"@types/mocha": "^2.2.42"
   },
   "__metadata": {
-		"id": "c04c6fb9-2167-4a94-a84f-c8c0a941a2bf",
-		"publisherId": "5fb026b1-a5db-48c5-b61c-8f502c451b92",
-		"publisherDisplayName": "Psilon"
+		"publisherDisplayName": "pixelzdesign"
 	}
 }
