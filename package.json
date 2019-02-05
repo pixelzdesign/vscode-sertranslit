@@ -1,0 +1,63 @@
+{
+	"name": "sertranslit",
+  "displayName": "SerTranslit",
+  "icon": "img/icon.png",
+	"description": "Serbian transliteration cyrillic to latin, latin to cyrillic and slugify",
+  "version": "0.0.1",
+  "publisher": "pixelzdesign",
+	"engines": {
+		"vscode": "^1.30.0"
+	},
+	"categories": [
+		"Other"
+	],
+	"activationEvents": [
+		"onCommand:extension.sertranslitCyrToLat",
+    "onCommand:extension.sertranslitLatToCyr",
+		"onCommand:extension.sertranslitSlug"
+	],
+	"main": "./src/extension.js",
+	"contributes": {
+		"commands": [
+			{
+				"command": "extension.sertranslitCyrToLat",
+				"title": "SerTranslit: Cyrillic to Latin",
+				"description": "Serbian transliteration cyrillic to latin"
+      },
+      {
+        "command": "extension.sertranslitLatToCyr",
+        "title": "SerTranslit: Latin to Cyrillic",
+        "description": "Serbian transliteration latin to cyrillic"
+      },
+			{
+				"command": "extension.sertranslitSlug",
+				"title": "SerTranslit: Slug",
+				"description": "Convert to slug"
+			}
+		]
+  },
+  "homepage": "https://github.com/AlexPsilon/vscode-translit",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/AlexPsilon/vscode-translit.git"
+	},
+	"bugs": {
+		"url": "https://github.com/AlexPsilon/vscode-translit/issues"
+	},
+	"scripts": {
+		"postinstall": "node ./node_modules/vscode/bin/install",
+		"test": "node ./node_modules/vscode/bin/test"
+	},
+	"devDependencies": {
+		"typescript": "^3.1.4",
+		"vscode": "^1.1.25",
+		"eslint": "^4.11.0",
+		"@types/node": "^8.10.25",
+		"@types/mocha": "^2.2.42"
+  },
+  "__metadata": {
+		"id": "c04c6fb9-2167-4a94-a84f-c8c0a941a2bf",
+		"publisherId": "5fb026b1-a5db-48c5-b61c-8f502c451b92",
+		"publisherDisplayName": "Psilon"
+	}
+}
