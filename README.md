@@ -14,5 +14,3 @@ Select text, press **F1** and type **sertranslit**. You can use three commands:
 3. SerTranslit: Slug
 
 That's it.
-
-
