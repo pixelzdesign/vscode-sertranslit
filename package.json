@@ -13,7 +13,7 @@
 	],
 	"activationEvents": [
 		"onCommand:extension.sertranslitCyrToLat",
-    "onCommand:extension.sertranslitLatToCyr",
+    		"onCommand:extension.sertranslitLatToCyr",
 		"onCommand:extension.sertranslitSlug"
 	],
 	"main": "./src/extension.js",
@@ -23,12 +23,12 @@
 				"command": "extension.sertranslitCyrToLat",
 				"title": "SerTranslit: Cyrillic to Latin",
 				"description": "Serbian transliteration cyrillic to latin"
-      },
-      {
-        "command": "extension.sertranslitLatToCyr",
-        "title": "SerTranslit: Latin to Cyrillic",
-        "description": "Serbian transliteration latin to cyrillic"
-      },
+		        },
+		        {
+				"command": "extension.sertranslitLatToCyr",
+				"title": "SerTranslit: Latin to Cyrillic",
+				"description": "Serbian transliteration latin to cyrillic"
+		        },
 			{
 				"command": "extension.sertranslitSlug",
 				"title": "SerTranslit: Slug",
