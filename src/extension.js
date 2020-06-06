@@ -31,8 +31,8 @@ const strToSlug = str => {
 
 const strToCyr = str => {
   const strTranslit = converter(str, symbolsLatToCyr);
-  return strTranslit.replace('дж', 'џ').replace('нј', 'њ').replace('лј', 'љ').replace('Дж', 'Џ').replace('Нј', 'Њ').replace('Лј', 'Љ')
-  .replace('ДЖ', 'Џ').replace('НЈ', 'Њ').replace('ЛЈ', 'Љ');
+  return strTranslit.replace(/дж/g, 'џ').replace(/нј/g, 'њ').replace(/лј/g, 'љ').replace(/Дж/g, 'Џ').replace(/Нј/g, 'Њ').replace(/Лј/g, 'Љ')
+  .replace(/ДЖ/g, 'Џ').replace(/НЈ/g, 'Њ').replace(/ЛЈ/g, 'Љ');
 };
 
 const sertranslitCyrToLat = () => {
