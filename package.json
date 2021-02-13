@@ -3,7 +3,7 @@
   "displayName": "SerTranslit",
   "icon": "img/icon.png",
 	"description": "Serbian transliteration cyrillic to latin, latin to cyrillic and slugify",
-  "version": "1.0.0",
+  "version": "1.0.7",
   "publisher": "pixelzdesign",
 	"engines": {
 		"vscode": "^1.30.0"
